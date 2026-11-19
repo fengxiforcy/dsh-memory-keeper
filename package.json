@@ -1,0 +1,24 @@
+{
+  "name": "dsh-memory-keeper",
+  "version": "0.1.0",
+  "description": "DSH plugin: compaction + memory linkage — auto-grooms long-term memory before compaction, and monitors/maintains session-log pressure.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": "^22.19 || >=24"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fengxiforcy/dsh-memory-keeper.git"
+  },
+  "keywords": ["dsh", "deepseek-harness", "memory", "compaction", "context", "session-log"]
+}
