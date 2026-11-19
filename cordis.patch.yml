@@ -1,0 +1,5 @@
+# dsh-memory-keeper bundle patch.
+# 记忆守夜人：先在 agent/pre-step 量句子压力、写日志；整理与自动压缩后续阶段接入。
+- insert:
+    - id: memory-keeper
+      name: dsh-memory-keeper
